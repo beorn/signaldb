@@ -171,6 +171,6 @@ This behavior optimizes your app’s performance by reducing the number of unnec
 2. Simplified Code: Developers no longer need to manually specify fields to track. With automatic field tracking, the system handles this for you, allowing you to focus on business logic rather than managing reactivity manually.
 3. Reduced Developer Error: Manually tracking fields can be error-prone, especially as queries evolve. Automatic field-level reactivity ensures that your queries remain optimal even as your code changes, making it easier to maintain over time.
 
-Transition and Future Plans
+### Transition and Future Plans
 
 This feature is currently in beta and must be explicitly enabled using `{ fieldTracking: true }` in the query options. Feel free to [open an issue](https://github.com/maxnowack/signaldb/issues/new) if you encounter any bugs. In future versions (such as v1.0.0), SignalDB plans to make field-level reactivity the default behavior. This will remove the need to explicitly enable the option, making the system more intuitive and efficient out-of-the-box.
